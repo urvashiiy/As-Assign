@@ -1,0 +1,22 @@
+
+.navbar ul {
+  background-color: rgb(133, 34, 77);
+  width: 100%;
+  justify-content: center;
+  text-shadow: rgba(220, 224, 107, 0.964) 0px 1px 8px ;
+  box-shadow: rgb(133, 34, 77) 0px 5px 5px ;
+  font-size: 1.5rem;
+  padding: 2px;
+  color: rgb(255, 255, 255);
+}
+.custom-nav-link {
+  color: rgb(255, 255, 255);
+  transition: cubic-bezier(0.86, 0, 0.07, 1);
+
+}
+
+.custom-nav-link:hover{
+ color: rgb(228, 168, 194);
+ transform: scale(1.1);
+  
+}
