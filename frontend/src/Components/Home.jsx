@@ -1,5 +1,5 @@
 import React from 'react'
-import '../assets/diy.jpg'
+import diy from '../assets/diy.jpg'
 
 const Home = () => {
   return (
@@ -7,7 +7,7 @@ const Home = () => {
       <div className='Home-main'>
       
         <div className='img-cont'>
-          <img src="{diy.jpg}" alt="" />
+          <img style={{objectFit:'contain', width:'50%', height:'20%'}} src={diy} alt="" />
         </div>
       </div>
     </div>
